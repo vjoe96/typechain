@@ -33,6 +33,6 @@ class Word {
 const kimchi = new Word("김치", "한국의 음식");
 const dict = new Dict();
 dict.add(kimchi);
-dict.def("김치");
+console.log(dict.def("김치"))
 dict.remove("김치");
-dict.def("김치");
+console.log(dict.def("김치"))
