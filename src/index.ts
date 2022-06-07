@@ -1,6 +1,3 @@
-class block {
-    constructor(private data: string) {}
-    static hello() {
-        return "hi";
-    }
-}
+import { init, exit } from "myPackage";
+
+localStorage;
